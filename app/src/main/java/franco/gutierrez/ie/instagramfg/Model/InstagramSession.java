@@ -19,7 +19,7 @@ public class InstagramSession {
     private SharedPreferences mSharedPreferences;
     private Editor mEditor;
     private Context mContext;
-
+    //user details and token keep it in the mSharePreferences
     public InstagramSession(Context context) {
         this.mContext = context;
         mSharedPreferences = context.getSharedPreferences(SHARED, Context.MODE_PRIVATE);
